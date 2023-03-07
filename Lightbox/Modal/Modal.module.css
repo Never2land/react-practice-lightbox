@@ -1,0 +1,56 @@
+.backdrop {
+  position: absolute;
+  height: 100%;
+  overflow: scroll;
+  width: 100%;
+  background: #00000070;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.modal {
+  width: 50%;
+  min-height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.text a {
+  color: #0891b2;
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  height: 400px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 20px 50px #2563eb;
+}
+
+.controlTab {
+  position: absolute;
+  z-index: 20;
+  bottom: 0;
+  width: 100%;
+  overflow-x: auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.tabButton {
+  height: 100%;
+  width: 50px;
+  cursor: pointer;
+}
